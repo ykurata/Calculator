@@ -30,6 +30,17 @@ class Calculator: ObservableObject {
     // Select the appropriate function based on the label of the button pressed
     func buttonPressed(label: String) {
         
+        if label == "CE" {
+            
+        } else if label == "=" {
+            equalClicked()
+        } else if label == "." {
+            decimalClicked()
+        } else if let value = Double(label) {
+            numberPressed(value: value)
+        } else {
+            operatorPressed(op: Operator())
+        }
     }
     
     func reset() {
