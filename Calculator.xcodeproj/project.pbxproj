@@ -12,6 +12,7 @@
 		E697BC3D25D39CC0000811AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E697BC3C25D39CC0000811AF /* Assets.xcassets */; };
 		E697BC4025D39CC0000811AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E697BC3F25D39CC0000811AF /* Preview Assets.xcassets */; };
 		E697BC4925D39EB9000811AF /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E697BC4825D39EB9000811AF /* CalculatorButton.swift */; };
+		E697BC4D25D43DF0000811AF /* CalculatorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E697BC4C25D43DF0000811AF /* CalculatorRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E697BC3F25D39CC0000811AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E697BC4125D39CC0000811AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E697BC4825D39EB9000811AF /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		E697BC4C25D43DF0000811AF /* CalculatorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E697BC3825D39CBF000811AF /* CalculatorApp.swift */,
 				E697BC3A25D39CBF000811AF /* ContentView.swift */,
 				E697BC4825D39EB9000811AF /* CalculatorButton.swift */,
+				E697BC4C25D43DF0000811AF /* CalculatorRow.swift */,
 				E697BC3C25D39CC0000811AF /* Assets.xcassets */,
 				E697BC4125D39CC0000811AF /* Info.plist */,
 				E697BC3E25D39CC0000811AF /* Preview Content */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E697BC4D25D43DF0000811AF /* CalculatorRow.swift in Sources */,
 				E697BC3B25D39CBF000811AF /* ContentView.swift in Sources */,
 				E697BC4925D39EB9000811AF /* CalculatorButton.swift in Sources */,
 				E697BC3925D39CBF000811AF /* CalculatorApp.swift in Sources */,
